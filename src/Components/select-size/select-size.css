@@ -1,0 +1,41 @@
+.select {
+margin-bottom: 32px;
+}
+
+.select-size {
+display: flex;
+justify-content: space-between;
+}
+
+.select-size__buttons {
+display: flex;
+gap: 5px;
+/* justify-content: space-between; */
+}
+.select-size__buttons__item {
+/* width: 88px; */
+height: 36px;
+flex-grow: 1;
+border: 1px solid;
+display: flex;
+cursor: pointer;
+  
+}
+.item-size-text{
+margin: auto;
+}
+
+.select-size__buttons__item-active {
+    border-style: dashed;
+}
+
+.select-size__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.size-icon {
+    width: 17px;
+    height: 17px;
+    background-repeat: no-repeat;
+}

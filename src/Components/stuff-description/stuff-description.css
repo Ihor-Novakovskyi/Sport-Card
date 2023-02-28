@@ -1,0 +1,16 @@
+.stuff-description {
+margin-bottom: 56px;
+}
+.stuff-description__header {
+margin-bottom: 32px;
+}
+.stuff-description__header span {
+    display: inline-block;
+    height: 13px;
+    width: 20px;
+}
+
+.stuff-description__block__header {
+bottom: 32px;
+}
+
